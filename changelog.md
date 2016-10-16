@@ -3,7 +3,7 @@
 ## v1.0.0 Initial version
 
 #### Features
-* Gulp: HTTP server with PHP and browserSync.
+* Gulp: HTTP server with PHP and Browsersync.
 * Gulp: Lints, minify and concatenates JavaScipt files.
 * Gulp: Compiles and minify Sass files (.sass and .scss).
 * Gulp: PostCSS for transforming CSS with JavaScript (default: rucksack-css, autoprefixer and csswring for minification).
