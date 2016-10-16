@@ -13,7 +13,7 @@ Maximize is a powerful boilerplate for creating new web development projects.
 ## Features
 Here are some of the main features of Maximize:
 
-- Gulp: HTTP server with PHP and browserSync.
+- Gulp: HTTP server with PHP and Browsersync.
 - Gulp: Lints, minify and concatenates JavaScipt files.
 - Gulp: Compiles and minify Sass files (.sass and .scss).
 - Gulp: PostCSS for transforming CSS with JavaScript (default: rucksack-css, autoprefixer and csswring for minification).
