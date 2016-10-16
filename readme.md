@@ -78,7 +78,14 @@ Gulp is a build system, meaning that you can use it to automate common tasks in 
 <hr>
 <br>
 #### Command: `gulp`
-Write an explaination of the gulp task.
+This task build the CSS, JS and image files, then starts a HTTP server with PHP and Browsersync support and then it will start a watcher.
+
+This task executes the `build`, `browserSync` and `watch` task.
+
+| Subject | Information |
+| ------- | ----- |
+| Used Plugins | <ul><li>`gulp`</li></ul> |
+| Used Customizable Properties | none |
 
 <br>
 <hr>
