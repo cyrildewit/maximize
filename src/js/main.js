@@ -1,0 +1,5 @@
+(function() {
+
+    moduleOne.init();
+
+}());

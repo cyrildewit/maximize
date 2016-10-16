@@ -1,0 +1,34 @@
+{
+  "name": "maximize",
+  "description": "Maximize is a powerful boilerplate for creating new web development projects.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Cyril de Wit"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "boilerplate",
+    "gulp",
+    "build",
+    "system",
+    "html",
+    "sass",
+    "css",
+    "framework",
+    "starters",
+    "kit"
+  ],
+  "homepage": "https://github.com/cyrildewit/Maximize#readme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
