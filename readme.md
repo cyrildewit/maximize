@@ -269,8 +269,7 @@ See the project GitHub [milestone tracker](https://github.com/cyrildewit/Maximiz
 ## Changelog
 See the `changelog file` for more details.
 
-* v1.0.0 | First Offical Release
-* v1.alpha- <= 2.0.4 | Experimental Versions
+* v1.0.0 | Initial version
 
 ## License
 The code is available under the MIT License - Created by [Cyril de Wit](https://github.com/cyrildewit "Github profile page of Cyril de Wit")
