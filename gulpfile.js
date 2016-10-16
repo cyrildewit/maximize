@@ -22,6 +22,10 @@
 //  `gulp build-img`
 //  `gulp watch:build-img`
 //  `gulp displace-bc`
+//  `gulp clean-assets`
+//  `gulp watch`
+//  `gulp build`
+//  `gulp watch:build`
 //
 // =========================================================
 

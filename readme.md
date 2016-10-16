@@ -73,6 +73,10 @@ Gulp is a build system, meaning that you can use it to automate common tasks in 
 | `gulp build-img`          |
 | `gulp watch:build-img`    |
 | `gulp displace-bc`        |
+| `gulp clean-assets`       |
+| `gulp watch`              |
+| `gulp build`              |
+| `gulp watch:build`        |
 
 <br>
 <hr>
