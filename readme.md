@@ -242,8 +242,12 @@ This feature is currently in development.
 ## JavaScript Application Setup
 Write an explaination of the JavaScript Application Setup.
 
+This feature is currently in development.
+
 ## PHP Application Setup
 Write an explaination of the PHP Application Setup.
+
+This feature is currently in development.
 
 ## To do
 See the project GitHub [issue tracker](https://github.com/cyrildewit/Maximize/issues).
