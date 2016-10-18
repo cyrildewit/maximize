@@ -1,6 +1,6 @@
 {
   "name": "maximize",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Maximize is a Powerful Starters Kit for Web Development using Gulp as Build System.",
   "main": "gulpfile.js",
   "scripts": {
