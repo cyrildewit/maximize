@@ -16,7 +16,7 @@ Here are some of the main features of Maximize:
 - Gulp: HTTP server with PHP and Browsersync.
 - Gulp: Lints, minify and concatenates JavaScipt files.
 - Gulp: Compiles and minify Sass files (.sass and .scss).
-- Gulp: PostCSS for transforming CSS with JavaScript (default: rucksack-css, autoprefixer and csswring for minification).
+- Gulp: PostCSS for transforming CSS with JavaScript (default: rucksack-css and autoprefixer).
 - Gulp: Sourcemaps for JavaScript &amp; CSS.
 - Gulp: Minify images.
 - Gulp: Task for displacing files from the `bower_components` folder to the public folder.
@@ -24,7 +24,7 @@ Here are some of the main features of Maximize:
 - PHP: A basic basic PHP framework for faster front-end development.
 
 ## Documentation
-In this documentation you will find some helpful information about the use of the boilerplate. If you have any questions about the boilerplate or if you find some grammer mistakes, then you can contact me at: info@cyrildewit.nl.
+In this documentation you will find some helpful information about the use of this starters kit. If you have any questions about the boilerplate or if you find some grammer mistakes, then feel free to contact me at: info(at)cyrildewit.nl.
 
 **In this documentation:**
 
@@ -44,14 +44,15 @@ Make sure these are installed first.
 * [Bower](https://bower.io) `(sudo) npm install -g bower`
 
 ### Quick Start
-1. Download the latest version of Maximize (using git clone or the download link).
-    * `git clone https://github.com/cyrildewit/Maximize.git`
-    * Click on the green button with 'clone or download' at the top of GitHub. Then click on 'Download ZIP'.
+1. Download the latest version of Maximize (using git clone, the download link or open in desktop).
+    * `git clone https://github.com/cyrildewit/maximize.git`
+    * Click on the green button with 'Clone or download' at the top of GitHub.com. Then click on 'Download ZIP'.
+    * Click on the gree button with 'Clone or download' at the top of GitHub.com. Then click on 'Open in Desktop'.
 2. In bash/terminal/command line, `cd` into your project directory.
 3. Run `npm install` to install the required files.
 4. When it's done installing, run one of the task runners to get going:
 	* `gulp` automatically compiles files and applies changes using BrowserSync.
-    * See the full list of task in the nex chapter!
+    * See the full list of task in the next chapter!
 
 ### Gulp Tasks
 We wrote some powerful tasks for you to simplify your development of web projects. We highly recommend you to read the `Gulpfile` chapter carefully.
