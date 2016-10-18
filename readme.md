@@ -1,4 +1,4 @@
-# Maximize v1.0.0
+# Maximize v0.0.1
 
 <a href="https://david-dm.org/cyrildewit/maximize" title="Dependency status">
     <img src="https://david-dm.org/cyrildewit/maximize.svg" />
