@@ -1,6 +1,6 @@
 {
   "name": "maximize",
-  "description": "Maximize is a powerful boilerplate for creating new web development projects.",
+  "description": "Maximize is a Powerful Starters Kit for Web Development using Gulp as Build System.",
   "main": "gulpfile.js",
   "authors": [
     "Cyril de Wit"

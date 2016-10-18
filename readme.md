@@ -8,7 +8,7 @@
     <img src="https://david-dm.org/cyrildewit/maximize/dev-status.svg" />
 </a>
 
-Maximize is a powerful boilerplate for creating new web development projects.
+> Maximize is a Powerful Starters Kit for Web Development using Gulp as Build System.
 
 ## Features
 Here are some of the main features of Maximize:
@@ -24,7 +24,7 @@ Here are some of the main features of Maximize:
 - PHP: A basic basic PHP framework for faster front-end development.
 
 ## Documentation
-In this documentation you will find some helpfull information about the use of the boilerplate. If you have any questions about the boilerplate or if you find some grammer mistakes, then you can contact me at: info@cyrildewit.nl.
+In this documentation you will find some helpful information about the use of the boilerplate. If you have any questions about the boilerplate or if you find some grammer mistakes, then you can contact me at: info@cyrildewit.nl.
 
 **In this documentation:**
 

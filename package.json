@@ -1,7 +1,7 @@
 {
   "name": "maximize",
   "version": "1.0.0",
-  "description": "Maximize is a powerful boilerplate for creating new web development projects.",
+  "description": "Maximize is a Powerful Starters Kit for Web Development using Gulp as Build System.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -48,5 +48,9 @@
     "jshint": "^2.9.3",
     "jshint-stylish": "^2.2.1",
     "rucksack-css": "^0.8.6"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1"
   }
 }
