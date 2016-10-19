@@ -24,7 +24,7 @@ Here are some of the main features of Maximize:
 - PHP: A basic basic PHP framework for faster front-end development.
 
 ## Documentation
-In this documentation you will find some helpful information about the use of this starters kit. If you have any questions about the boilerplate or if you find some grammer mistakes, then feel free to contact me at: info(at)cyrildewit.nl.
+In this documentation you will find some helpful information about the use of this starters kit. If you have any questions about Maximize or if you find some grammer mistakes, then feel free to contact me at: info(at)cyrildewit.nl.
 
 **In this documentation:**
 
