@@ -1,5 +1,6 @@
 (function() {
 
-    moduleOne.init();
+    // moduleOne.init();
+    profileViewer.init();
 
 }());
