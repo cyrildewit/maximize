@@ -61,7 +61,7 @@ var gulp = require('gulp');
 
 // Other plugins
 var php = require('gulp-connect-php');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var sourcemaps = require('gulp-sourcemaps');
 var gutil = require('gulp-util');
 var header  = require('gulp-header');
@@ -113,7 +113,8 @@ var configuration = {
     sourcemaps: {
         outputDirectory: '../maps/',
         initOptions: {
-            loadMaps: true
+            loadMaps: true,
+            debug: true
         }
     },
     headers: {
@@ -139,6 +140,7 @@ var configuration = {
         toScan: './src/js/**/*.js',
         toConcatenate: [
             './src/js/modules/moduleOne.js',
+            './src/js/modules/jobGenerator.js',
             './src/js/main.js'
         ],
         outputName: 'scripts.js',
@@ -184,22 +186,66 @@ var configuration = {
 // HTTP Server And Browser-Sync Tasks
 // ***********************************************
 
-gulp.task('php', function() {
-    php.server({
-        base: configuration.server.base,
-        port: configuration.server.port,
-        keepalive: true
-    });
+var config = {
+    server: {
+        status: 'vhost', // if static => static server configruation, else (or just vhost) => virtual host server configruation
+        static: {
+            base: './public/',
+            port: 4000
+        },
+        vhost: {
+            proxy: 'maximize.local.nowww'
+        }
+    }
+};
+
+gulp.task('browser-sync', function() {
+    if (config.server.status === 'static') {
+        browserSync.init({
+            /**
+             * Proxy
+             *
+             * target: Localhost address with port
+             */
+            proxy: {
+                target: '127.0.0.1:' + config.server.static.port
+            },
+            port: config.server.port,
+            open: true,
+            notify: false
+        });
+    } else {
+        browserSync.init({
+            /**
+             * Proxy
+             *
+             * target: Virtual host address
+             */
+            proxy: {
+                target: config.server.vhost.proxy
+            },
+            open: true,
+            notify: false
+        });
+    }
 });
 
-gulp.task('browserSync', ['php'], function() {
-    browserSync({
-        proxy: '127.0.0.1:' + configuration.server.port,
-        port: configuration.server.port,
-        open: true,
-        notify: false
-    });
-});
+// gulp.task('php', function() {
+//     php.server({
+//         base: configuration.server.base,
+//         port: configuration.server.port,
+//         keepalive: true
+//     });
+// });
+//
+// gulp.task('browserSync', ['php'], function() {
+//     browserSync({
+//         proxy: '127.0.0.1:' + configuration.server.port,
+//         port: configuration.server.port,
+//         open: true,
+//         notify: false
+//     });
+// });
 
 gulp.task('reloadBrowserSync', function() {
     browserSync.reload();
@@ -289,6 +335,7 @@ gulp.task('displace-bc', function() {
             gulp.src(configuration.bower.base + file)
                 .pipe(gulp.dest(configuration.environment.destination + 'assets/css/vendor/'));
         }
+        browserSync.reload();
     });
 });
 
@@ -340,6 +387,6 @@ gulp.task('watch:build', function() {
 
 gulp.task('default', [
     'build',
-    'browserSync',
+    'browser-sync',
     'watch'
 ]);
